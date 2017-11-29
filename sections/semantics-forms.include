@@ -489,7 +489,7 @@
   <p class="warning">In places that change from e.g. Standard Time to Daylight Saving Time,
   the same time can occur twice in the same day when the clocks are moved backwards.
   An <{input}> element with a <{input/type}> of <code>datetime-local</code> or <code>time</code>
-  cannot differentiate between two identical instances of time. 
+  cannot differentiate between two identical instances of time.
   If this difference matters, applications should allow users to specify which occurence of the duplicated time they mean,
   for example by choosing between "Winter time" and "Summer Time".</p>
 
@@ -3960,7 +3960,7 @@ ldh-str       = let-dig / "-" ; defined in <a>RFC 1034 section 3.5</a>
     <{select}> element and <{input}> elements with the <{input/Number}> state.
 
   </div>
-  
+
   <p class="note">
     See [[#date-time-and-number-formats]] for a discussion of
   the difference between the input format and submission format for date, time, and number form
@@ -4698,8 +4698,7 @@ input { height: 75px; width: 49px; background: #D5CCBB; color: black; }
 
     <li>Both <var>a</var> and <var>b</var> are in the same <a>tree</a>.</li>
 
-    <li>They both have a <{input/name}> attribute, their <{input/name}> attributes are not empty, and the value of <var>a</var>'s <{input/name}> attribute is a <a>compatibility
-    caseless</a> match for the value of <var>b</var>'s <{input/name}> attribute.</li>
+    <li>They both have a <{input/name}> attribute, their <{input/name}> attributes are not empty, and the value of <var>a</var>'s <{input/name}> attribute is a match for the value of <var>b</var>'s <{input/name}> attribute.</li>
 
   </ul>
 
@@ -5150,7 +5149,7 @@ input { height: 75px; width: 49px; background: #D5CCBB; color: black; }
     <dt>[=Allowed ARIA role attribute values=]:</dt>
     <dd><a attr-value for="aria/role"><code>button</code></a>
     (default - <a><em>do not set</em></a>),
-    <a attr-value for="aria/role"><code>link</code></a>, 
+    <a attr-value for="aria/role"><code>link</code></a>,
     or <a attr-value for="aria/role"><code>radio</code></a>.</dd>
     <dt>[=Allowed ARIA state and property attributes=]:</dt>
     <dd><a>Global aria-* attributes</a></dd>
